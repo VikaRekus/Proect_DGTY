@@ -1,0 +1,22 @@
+body { margin: 0; }
+#sidebar, #content { position: absolute; }
+#sidebar, #content { overflow: auto; padding: 10px; }
+
+#header {
+   height: 120px; /* Высота слоя */
+   background: #FEDFC0; border-bottom: 2px solid #7B5427;
+}
+
+#header h1 { padding: 40px; margin: 0; }
+
+#sidebar {
+    width: 150px; background: #ECF5E4; border-right: 1px solid #231F20;
+    top: 122px; /* Расстояние от верхнего края */
+    bottom: 0; /* Расстояние снизу  */
+}
+
+#content {
+    top: 200px; /* Расстояние от верхнего края */
+    left: 310px; /* Расстояние от левого края */
+    bottom: 0; right: 210px;
+}

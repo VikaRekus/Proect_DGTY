@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form 5</title>
+  <link rel="stylesheet" href="styles\prosto.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="tabs">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+      <button type="button" class="toggle-btn" onclick="registration()">Register</button>
+    </div>
+
+    <form id="login" class="form">
+      <input type="text" class="input-filed" placeholder="User Id required">
+      <input type="text" class="input-filed" placeholder="Password">
+      <input type="checkbox" class="check-box"><span>Remember Password</span>
+      <button type="submit" class="submit-btn">Log in</button>
+    </form>
+
+    <form id="register" class="form">
+      <input type="text" class="input-filed" placeholder="User Id">
+      <input type="email" class="input-filed" placeholder="Email Id">
+      <input type="text" class="input-filed" placeholder="Password">
+      <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
+  </div>
+
+  <script>
+    var logIn = document.getElementById("login");
+    var register = document.getElementById("register");
+    var button = document.getElementById("btn");
+
+    function registration() {
+      logIn.style.left = "-400px";
+      register.style.left = "50px";
+      button.style.left = "110px";
+    }
+
+    function login() {
+      logIn.style.left = "50px";
+      register.style.left = "450px";
+      button.style.left = "0";
+    }
+  </script>
+</body>
+
+</html>
