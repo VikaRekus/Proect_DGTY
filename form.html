@@ -1,81 +1,65 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Форма</title>
-    <link rel="stylesheet" href="styles\form.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психологический тест</title>
 </head>
 <body>
-    <h1>Пройдите небольшой тест</h1>
+    <h1>Психологический тест</h1>
 
-    <form action="#" method="post" target="_blank">
-        <h2>Шаблон формы</h2>
-        <fieldset>
-            <legend>Персональные данные</legend>
-            <ul>
-                <li>
-                    <label for="name">Имя:*</label>
-                    <input type="text" name="name" placeholder="Иван Иванов" id="name" required>
-                </li>
-                <li>
-                    <label for="age">Возраст:</label>
-                    <input type="number" name="age" placeholder="27" id="age" min="0" max="125">
-                </li>
-            </ul>
-        </fieldset>
-        <fieldset>
-            <legend>Контакты</legend>
-            <ul>
-                <li>
-                    <label for="email">E-mail:*</label>
-                    <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
-                </li>
-                <li>
-                    <label for="number">Телефон:*</label>
-                    <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
-                </li>
-            </ul>
-        </fieldset>
-        <fieldset>
-            <legend>Увлечения</legend>
-                <textarea name="comment" placeholder="Расскажите обо всём, что для вас важно" id="message"></textarea>
-        </fieldset>
-        <fieldset>
-            <legend>Учёба</legend>
-            <ul>
-                <li>
-                    <input type="checkbox" name="intensive-courses" id="courses">
-                    <label for="courses">Прохожу курсы</label>
-                </li>
-                <li>
-                    <input type="checkbox" name="books" id="books">
-                    <label for="books">Читаю книги</label>
-                </li>
-                <li>
-                    <input type="checkbox" name="video" id="video">
-                    <label for="video">Смотрю видео</label>
-                </li>
-            </ul>
-        </fieldset>
-        <fieldset>
-            <legend>Предпочтения</legend>
-            <ul>
-                <li>
-                    <input type="radio" name="preference" id="front" value="frontend">
-                    <label for="front">Фронтенд-разработка</label>
-                </li>
-                <li>
-                    <input type="radio" name="preference" id="back" value="backend">
-                    <label for="back">Бэкенд-разработка</label>
-                </li>
-            </ul>
-        </fieldset>
-        <div>
-            <button type="submit">Отправить</button>
-            <p>* — Обязательные поля</p>
-        </div>
+    <form action="">
+        <h3>Вопрос 1: Какие качества вы цените в людях?</h3>
+        <ul>
+            <li><input type="radio" id="q1a" name="question1" value="a">
+                <label for="q1a">а) Честность</label></li>
+            <li><input type="radio" id="q1b" name="question1" value="b">
+                <label for="q1b">б) Доброта</label></li>
+            <li><input type="radio" id="q1c" name="question1" value="c">
+                <label for="q1c">в) Интеллект</label></li>
+            <li><input type="radio" id="q1d" name="question1" value="d">
+                <label for="q1d">г) Смелость</label></li>
+        </ul>
+
+        <h3>Вопрос 2: Как вы обычно справляетесь со стрессом?</h3>
+        <ul>
+            <li><input type="radio" id="q2a" name="question2" value="a">
+                <label for="q2a">а) Больше сплю</label></li>
+            <li><input type="radio" id="q2b" name="question2" value="b">
+                <label for="q2b">б) Занимаюсь своим любимым делом</label></li>
+            <li><input type="radio" id="q2c" name="question2" value="c">
+                <label for="q2c">в) Общаюсь с друзьями и близкими</label></li>
+            <li><input type="radio" id="q2d" name="question2" value="d">
+                <label for="q2d">г) Закрываюсь в себе </label></li>
+        </ul>
+
+        <h3>Вопрос 3: В каких ситуациях вы, скорее всего, будете чувствовать себя неуверенно?</h3>
+        <ul>
+            <li><input type="radio" id="q3a" name="question3" value="a">
+                <label for="q3a">а) Выступление перед большой аудиторией</label></li>
+            <li><input type="radio" id="q3b" name="question3" value="b">
+                <label for="q3b">б) Общение с незнакомцами</label></li>
+            <li><input type="radio" id="q3c" name="question3" value="c">
+                <label for="q3c">в) Принятие важных решений</label></li>
+            <li><input type="radio" id="q3d" name="question3" value="d">
+                <label for="q3d">г) Работа в команде </label></li>
+        </ul>
+
+        <h3>Вопрос 4: Какая обстановка подходит вам подходит для работы?</h3>
+        <ul>
+            <li><input type="radio" id="q4a" name="question4" value="a">
+                <label for="q4a">а) Тихая комната</label></li>
+            <li><input type="radio" id="q4b" name="question4" value="b">
+                <label for="q4b">б) Место с больши количеством людей</label></li>
+            <li><input type="radio" id="q4c" name="question4" value="c">
+                <label for="q4c">в) Место со средним уровнем шума</label></li>
+            <li><input type="radio" id="q4d" name="question4" value="d">
+                <label for="q4d">г) Другое </label></li>
+        </ul>
+
+
+        <button type="submit">Отправить</button>
     </form>
-
 </body>
-
 </html>
