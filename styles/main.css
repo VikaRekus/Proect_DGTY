@@ -1,106 +1,56 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  /*background-color: #ececec;*/
-  background-color: #FFEBEB;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  width: 400px;
-  height: 480px;
-  position: relative;
-  margin: 6% auto;
-  background: #fff;
-  padding: 5px;
-  overflow: hidden;
-  border: 1px solid #f1f1f1;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.tabs {
-  width: 220px;
-  margin: 70px auto;
-  position: relative;
-  box-shadow: 0 0 15px #cacaca;
-  border-radius: 30px;
+h1 {
+    color: #333;
 }
 
-.toggle-btn {
-  padding: 10px 30px;
-  cursor: pointer;  
-  background: transparent;
-  border: 0;
-  outline: none;
-  position: relative;
+.role-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-#btn {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 110px;
-  height: 100%;
-  /*background: linear-gradient(to right, #FFC0CB, #98FB98);*/
-  /*background: linear-gradient(to right, #DDA0DD, #FFB6C1);*/
-  /*background: linear-gradient(to right, #AFEEEE, #98FB98);*/
-  /*background: linear-gradient(to right, #9400D3, #FF69B4);*/
-  background: linear-gradient(to right, #FFC0CB, #FFB6C1);
-  border-radius: 30px;
-  transition: .5s;
+#header {
+   height: 70px; /* Высота слоя */
+   background: #FFEBEB; border-bottom: 2px solid #7B5427;
 }
 
-.form {
-  top: 180px;
-  position: absolute;
-  width: 280px;
-  transition: .5s;
+#header h3 {vertical-align: top;}
 
+.role-btn {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    background-color: #FFEBEB;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-.input-filed {
-  width: 100%;
-  padding: 10px 0;
-  margin: 10px 0;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #999;
-  outline: none;
-  background: transparent;
+.role-btn:hover {
+    transform: scale(1.1);
 }
 
-.submit-btn {
-  width: 85%;
-  padding: 10px 30px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  /*background: linear-gradient(to right, #FFC0CB, #98FB98);*/
-  /*background: linear-gradient(to right, #DDA0DD, #FFB6C1);*/
-  /*background: linear-gradient(to right, #AFEEEE, #98FB98);*/
-  /*background: linear-gradient(to right, #9400D3, #FF69B4);*/
-  background: linear-gradient(to right, #FFC0CB, #FFB6C1);
-  border: 0;
-  outline: none;
-  border-radius: 30px;
+.role-btn img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
-.check-box {
-  margin: 30px 10px 30px 0;
-}
-
-span {
-  color: #777;
-  font-size: 12px;
-  bottom: 68px;
-  position: absolute;
-}
-
-#login {
-  left: 50px;
-}
-
-#register {
-  left: 450px;
+.role-btn span {
+    font-size: 18px;
 }
