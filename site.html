@@ -34,6 +34,10 @@
       <button>Subscribe</button>
     </div>
   </div>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -163,6 +167,45 @@
   </style>
 </head>
 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="aboutus.css">
+    <title>About Us</title>
+</head>
+
+<body>
+
+
+    <section class="about">
+        <h1>About Us</h1>
+        <p style="font-weight: bold">
+          SoulSites - это платформа, на которой...
+          </p>
+        <div class="about-info">
+            <div class="about-img">
+                <img src="flower.jpg"" alt="Geeksforgeeks">
+            </div>
+            <div>
+            <p> SoulSites - это платформа, на которой пользователь
+                может выбрать подходящего ему психолога. Особенностью является то,
+                что система помогает подобрать профессионала на основании потребностей человека.
+                Эти потребности будут выявлены при прохождении специального теста
+            </p>
+                <button>Read More...</button>
+            </div>
+        </div>
+    </section>
+
+
+
 <body>
   <div class="testimonial">
     <h1>~   Наши психологи  ~</h1>
@@ -197,24 +240,24 @@
     const description = document.getElementById("description");
 
     let people = [{
-        photo: 'url("https://cdn.pixabay.com/photo/2015/03/03/18/58/woman-657753_960_720.jpg")',
+        photo: 'url("girl1.jpg")',
         name: "Екатерина Дмитриевна",
         profession: "Психотерапевт",
         description: "Опытный психотерапевт с фокусом на когнитивно-поведенческой терапии. Помогает клиентам справиться со стрессом и тревогой"
       },
       {
-        photo: "url('https://cdn.pixabay.com/photo/2018/06/27/07/45/college-student-3500990_960_720.jpg')",
+        photo: "url('man3.jpg')",
         name: "Петр Александрович",
         profession: "Психолог",
         description: "Специализируется на семейной терапии и конфликтологии. Работает с парами и семьями для улучшения взаимоотношений."
         },
       {
-        photo: "url('https://cdn.pixabay.com/photo/2015/01/08/18/30/man-593372__340.jpg')",
+        photo: "url('girl2.jpg')",
         name: "Виктория Алексеевна",
         profession: "Психолог",
         description: "Практикующий психолог с опытом в работе с детьми и подростками. Помогает молодежи развивать навыки самопознания и уверенности."},
       {
-        photo: "url('https://cdn.pixabay.com/photo/2012/10/26/02/12/actor-63082_960_720.jpg')",
+        photo: "url('girl4.jpg')",
         name: "Юлия Викторовна",
         profession: "Психиатр",
         description: "Специалист по связям и социальной адаптации. Помогает людям преодолеть социальные барьеры и адаптироваться в обществе."}
@@ -277,6 +320,116 @@
     leftArrow.addEventListener("click", setNextCardLeft);
     rightArrow.addEventListener("click", setNextCardRight);
   </script>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="ourteam.css">
+    <title>About Us</title>
+</head>
+
+
+
+<div class="container">
+ <div class="section-title">
+ <h1>Наша команда</h1>
+ </div>
+
+ <div class="row">
+
+
+ <div class="column">
+ <div class="team">
+ <div class="team-img">
+ <img src="img/team-1.jpg" alt="Team Image">
+ </div>
+ <div class="team-content">
+ <h2>Katya</h2>
+ <h3>Создание сайта</h3>
+ <p>Frontend разработчик, иследование проблемы</p>
+ <h4>katya@gmail.com</h4>
+ </div>
+ <div class="team-social">
+ <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+ <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+ <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+ <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+ <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+ </div>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="team">
+ <div class="team-img">
+ <img src="img/team-2.jpg" alt="Team Image">
+ </div>
+ <div class="team-content">
+ <h2>Vika</h2>
+ <h3>Создание сайта</h3>
+ <p>Backend и Frontend разработчик</p>
+ <h4>vika@gmail.com</h4>
+ </div>
+ <div class="team-social">
+ <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+ <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+ <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+ <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+ <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+ </div>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="team">
+ <div class="team-img">
+ <img src="img/team-3.jpg" alt="Team Image">
+ </div>
+ <div class="team-content">
+ <h2>Dasha</h2>
+ <h3>Создание презентации</h3>
+ <p>Иследование актуальности проблемы</p>
+ <h4>dasha@gmail.com</h4>
+ </div>
+ <div class="team-social">
+ <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+ <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+ <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+ <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+ <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+ </div>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="team">
+ <div class="team-img">
+ <img src="img/team-4.jpg" alt="Team Image">
+ </div>
+ <div class="team-content">
+ <h2>Kira</h2>
+ <h3>Создание презентации</h3>
+ <p>Создание иследовательского опроса</p>
+ <h4>kira@gmail.com</h4>
+ </div>
+ <div class="team-social">
+ <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+ <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+ <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+ <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+ <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+
 </body>
 
 </html>
