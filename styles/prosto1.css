@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*font-family: sans-serif;*/
+  /*background-color: #ececec;*/
+  background-color: #FFEBEB;
+}
+
+h1 {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  line-height: normal;
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+.toggle-btn {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  width: 40%;
+  padding: 20px 30px;
+  cursor: pointer;
+  top: 50%;
+  margin: auto;
+  transform: translateX(230px);
+  /*background: linear-gradient(to right, #FFC0CB, #98FB98);*/
+  /*background: linear-gradient(to right, #DDA0DD, #FFB6C1);*/
+  /*background: linear-gradient(to right, #AFEEEE, #98FB98);*/
+  /*background: linear-gradient(to right, #9400D3, #FF69B4);*/
+  background: linear-gradient(to right, #DDA0DD, #FFB6C1);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
