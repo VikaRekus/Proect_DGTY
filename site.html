@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Website Layout | CodingLab</title>
+    <title>SoulSites</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
    </head>
@@ -16,7 +16,7 @@
         <a href="#">SoulSites</a>
       </div>
       <ul>
-        <li><a href="site.html">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#team">Team</a></li>
       </ul>
@@ -267,8 +267,28 @@
         photo: "url('images/girl4.jpg')",
         name: "Юлия Викторовна",
         profession: "Психиатр",
-        description: "Специалист по связям и социальной адаптации. Помогает людям преодолеть социальные барьеры и адаптироваться в обществе."}
-    ];
+        description: "Специалист по связям и социальной адаптации. Помогает людям преодолеть социальные барьеры и адаптироваться в обществе."},
+      {
+        photo: "url('images/girl5.jpg')",
+        name: "Анна Анатольевна",
+        profession: "Психолог",
+        description: "Практикующий психолог с опытом в работе с детьми и подростками. Помогает молодежи развивать навыки самопознания и уверенности."},
+      {
+        photo: "url('images/man6.jpg')",
+        name: "Игорь Алексеевич",
+        profession: "Психолог",
+        description: "Детский психолог. Консультант в области родительско-детских отношений."},
+      {
+        photo: "url('images/man7.jpg')",
+        name: "Дмитрий Борисович",
+        profession: "Психолог",
+        description: "Детский психолог, гипнолог. Работает с паническими атаками, тревожным состоянием, страхами, фобиями, дискомфортными чувствами вины, стыда, обиды."},
+      {
+        photo: "url('images/girl8.jpg')",
+        name: "Наталья Олеговна",
+        profession: "Психотерапевт",
+        description: "Клинический психотерапевт. Гештальт-терапевт. Специалист по отчаянию."}
+      ];
 
     // set the first person
     imgBox.style.backgroundImage = people[0].photo;
@@ -303,7 +323,7 @@
     }
 
     function setNextCardLeft() {
-      if (currentPerson === 3) {
+      if (currentPerson === 7) {
         currentPerson = 0;
         slide("left", currentPerson);
       } else {
@@ -315,7 +335,7 @@
 
     function setNextCardRight() {
       if (currentPerson === 0) {
-        currentPerson = 3;
+        currentPerson = 7;
         slide("right", currentPerson);
       } else {
         currentPerson--;
