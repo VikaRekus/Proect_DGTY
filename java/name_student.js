@@ -101,9 +101,9 @@ submit.addEventListener('click', () => {
             loadQuiz();
         }
         else{
-            quiz.innerHTML = `<h2>Посмотреть результаты теста</h2>
+            quiz.innerHTML = `
             <a href="main_student.html">
-                <button onclick="location.reload()">Reload</button>
+                <button onclick="location.reload()">Посмотреть результаты теста</button>
             </a>`;
         }
     }
