@@ -43,7 +43,6 @@ ul li label{
 button{
     background: linear-gradient(to right, #DDA0DD, #FFB6C1);
     border: none;
-    display: block;
     width: 100%;
     cursor: pointer;
     font-size: 20px;
